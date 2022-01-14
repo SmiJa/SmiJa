@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body {
+    background-color: lightgrey;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh;
+}
+
+.orange {
+    color: rgb(230, 119, 29);
+}
+
+.orange:hover {
+    color:rgb(230, 119, 29);
+}
+
+.bg-orange {
+    background-color: rgb(230, 119, 29);
+}
+
+.border-orange {
+    border-color:rgb(230, 119, 29);
+}
+
+.name {
+    color: rgb(211, 211, 211);
+}
+
+.card-columns {
+    column-count: 3;
+}
