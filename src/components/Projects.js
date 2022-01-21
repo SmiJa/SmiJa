@@ -15,7 +15,7 @@ export default function Projects() {
             </p>
             <div className="d-sm-flex flex-wrap justify-content-evenly .flex-sm-column">
                 <div className="card p-2 m-2 col-lg-3 flex-grow-1">
-                    <img src={shoppingList} alt="" className="rounded-3 h-auto" />
+                    <img src={shoppingList} alt="" className="rounded-3 ratio ratio-16x9" />
                     <header>
                         <p className="fs-2">Shopping List</p>
                     </header>
@@ -34,7 +34,7 @@ export default function Projects() {
                     <a className="btn btn-dark mt-1" href="https://github.com/luceroweb/haunted-house-game"><i className="fab fa-github pe-1"></i>View the code</a>
                 </div>
                 <div className="card p-2 m-2 col-lg-3 flex-grow-1">
-                    <img src={magicBox} alt="" className="rounded-3" />
+                    <img src={magicBox} alt="" className="rounded-3 ratio ratio-16x9" />
                     <header>
                         <p className="fs-2">Ask the Magic Box</p>
                     </header>
@@ -44,7 +44,7 @@ export default function Projects() {
                     <a className="btn btn-dark mt-1" href="https://github.com/SmiJa/magicEightBall"><i className="fab fa-github pe-1"></i>View the code</a>
                 </div>
                 <div className="card p-2 m-2 col-lg-3 flex-grow-1">
-                    <img src={decidr} alt="" className="rounded-3" />
+                    <img src={decidr} alt="" className="rounded-3 ratio ratio-16x9" />
                     <header>
                         <p className="fs-2">Decidr</p>
                     </header>
@@ -54,7 +54,7 @@ export default function Projects() {
                     <a className="btn btn-dark mt-1" href="https://github.com/SmiJa/decidr"><i className="fab fa-github pe-1"></i>View the code</a>
                 </div>
                 <div className="card p-2 m-2 col-lg-3 flex-grow-1">
-                    <img src={passwordGenerator} alt="" className="rounded-3" />
+                    <img src={passwordGenerator} alt="" className="rounded-3 ratio ratio-16x9" />
                     <header>
                         <p className="fs-2">Password Generator</p>
                     </header>
@@ -64,7 +64,7 @@ export default function Projects() {
                     <a className="btn btn-dark mt-1" href="https://github.com/SmiJa/passwordGenerator"><i className="fab fa-github pe-1"></i>View the code</a>
                 </div>
                 <div className="card p-2 m-2 col-lg-3 flex-grow-1">
-                    <img src={rockPaperScissors} alt="" className="rounded-3" />
+                    <img src={rockPaperScissors} alt="" className="rounded-3 ratio ratio-16x9" />
                     <header>
                         <p className="fs-2">Rock, Paper, Scissors</p>
                     </header>
@@ -74,7 +74,7 @@ export default function Projects() {
                     <a className="btn btn-dark mt-1" href="https://github.com/SmiJa/Rock_Paper_Scissors"><i className="fab fa-github pe-1"></i>View the code</a>
                 </div>
                 <div className="card p-2 m-2 col-lg-3 flex-grow-1">
-                    <img src={ecard} alt="" className="rounded-3" />
+                    <img src={ecard} alt="" className="rounded-3 ratio ratio-16x9" />
                     <header>
                         <p className="fs-2">E-Card</p>
                     </header>
