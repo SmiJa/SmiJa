@@ -15,7 +15,7 @@ export default function Projects() {
             </p>
             <div className="d-sm-flex flex-wrap justify-content-evenly .flex-sm-column">
                 <div className="card p-2 m-2 col-lg-3 flex-grow-1">
-                    <img src={shoppingList} alt="" className="rounded-3" />
+                    <img src={shoppingList} alt="" className="rounded-3 h-auto" />
                     <header>
                         <p className="fs-2">Shopping List</p>
                     </header>
@@ -24,7 +24,7 @@ export default function Projects() {
                     <a className="btn btn-dark mt-1" href="https://github.com/SmiJa/Shopping_List"><i className="fab fa-github pe-1"></i>View the code</a>
                 </div>
                 <div className="card p-2 m-2 col-lg-3 flex-grow-1">
-                    <img src={hauntedHouse} alt="" className="rounded-3" />
+                    <img src={hauntedHouse} alt="" className="rounded-3 ratio ratio-16x9" />
                     <header>
                         <p className="fs-2">Haunted House Game</p>
                     </header>
