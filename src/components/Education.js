@@ -5,7 +5,7 @@ export default function Education() {
             <div>
                 <p className="fs-6 p-0 m-0"><span className="fw-bold">BitWise Industries - Workforce Training |</span> Aug - Sep 2021</p>
                 <p>Training covered JavaScript</p>
-                <p className="fs-6 p-0 m-0"><span className="fw-bold">BitWise Clovis Community College |</span> July 2020</p>
+                <p className="fs-6 p-0 m-0"><span className="fw-bold">Clovis Community College |</span> July 2020</p>
                 <p>Associates of Art in Two Dimensional Art</p>
             </div>
             <div className="d-grid">
