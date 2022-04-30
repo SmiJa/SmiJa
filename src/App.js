@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="container-sm h-100 d-flex flex-column">
+    <div className="">
       <Header/>
       <Profile/>
       <Projects/>
