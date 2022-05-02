@@ -1,31 +1,20 @@
-export default function Header() {
+import { Link } from 'react-router-dom';
+
+export default function Header({setShowMenu}) {
 	return (
-		<nav id="nav" className="">
+		<header id="nav" className="">
 			<div className="container nav-wrap">
-				<a href="#" className="">
-					<i className=""></i> <span className="">Jason Smith</span>
-				</a>
-        <ul className="nav-links">
-          {/* <li className="nav-item">
-            <a className="nav-link text-light" href="/">Home</a>
-          </li> */}
-          <li className="">
-            <a className="" href="#projects">Projects</a>
-          </li>
-          <li className="">
-            <a className="" href="#career">Career</a>
-          </li>
-          <li className="">
-            <a className="" href="#education">Education</a>
-          </li>
-          <li className="">
-            <a className="" href="#education">About</a>
-          </li>
-          <li className="">
-            <a className="" href="#education">Contact</a>
-          </li>
-        </ul>
+				<Link to="/">
+					<i className=""></i> <span className="nav-name">Jason Smith</span>
+				</Link>
+        <nav className="nav-links">
+          <Link to="/projects">Projects</Link>
+          <Link to="/resume">Career</Link>
+          <Link to="/education">Education</Link>
+          <Link to="/">About</Link>
+        </nav>
+        <span onClick={() => setShowMenu(true)} id="mobile-nav-opener">Menu</span>
 			</div>
-		</nav>
+		</header>
 	);
 }
