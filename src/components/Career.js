@@ -1,6 +1,6 @@
-export default function Resume() {
+export default function Career() {
 	return (
-		<div className="" id="career">
+		<div className="container" id="career">
 			<p className="">Career</p>
 			<div>
 				<p className=""><span className="">React Apprentice |</span> Sep 2021 - Current</p>

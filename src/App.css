@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&family=Roboto+Condensed:wght@400;700&display=swap');
 
+/* GLOBAL SETTINGS
+   -----------------------------  */
 * {
 	margin: 0;
 	padding: 0;
@@ -23,6 +25,9 @@ img {
 	width: 90%;
 	max-width: 1140px;
 }
+
+/* NAV SETTINGS
+   -----------------------------  */
 
 #nav {
 	width: 100%;
@@ -52,6 +57,12 @@ img {
 	font-size: 2rem;
 }
 
+@media screen and (max-width: 300px) {
+	.nav-name {
+		font-size: 1.6rem;
+	}
+}
+
 .nav-links {
 	display: flex;
 	font-size: 1.3rem;
@@ -64,6 +75,12 @@ img {
 #mobile-nav-opener {
 	display: none;
 	font-size: 1.3rem;
+}
+
+@media screen and (max-width: 300px) {
+	#mobile-nav-opener {
+		font-size: 1.1rem;
+	}
 }
 
 @media screen and (max-width: 840px) {
@@ -99,7 +116,6 @@ img {
 	font-size: 1.6rem;
 	top: 20px;
 	position: absolute;
-	justify-self: flex-start;
 }
 
 .mobile-nav-links {
@@ -116,24 +132,32 @@ img {
 	padding: 5px 0;
 }
 
+/* PROJECTS SETTINGS
+   -----------------------------  */
+
+#projects-page {
+    padding-bottom: 20px;
+}
+
+.projects-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
 .project {
+	flex: 300px;
 	padding: 15px;
 	border-radius: 5px;
-	background-color: rgba(0, 0, 0, 0.17);
+	background-color: rgba(0, 0, 0, 0.4);
 	display: flex;
+	flex-direction: column;
 	gap: 10px;
 	margin-bottom: 10px;
 }
 
 .img-wrap {
-	flex-grow: 1;
-	max-width: 45%;
-}
-
-.project-info {
-	flex-grow: 2;
-	display: flex;
-	flex-direction: column;
+	max-width: 100%;
 }
 
 @media screen and (max-width: 800px) {
@@ -145,3 +169,50 @@ img {
 		max-width: 100%;
 	}
 }
+
+.project-info {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.project-info header {
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.about {
+	flex-grow: 1;
+}
+
+.btn-bar {
+	width: 100%;
+	justify-self: flex-end;
+}
+
+.btn {
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.github-btn {
+	color: #121212;
+	background-color: #cdcdcd;
+}
+
+.github-btn:hover {
+	color: #121212;
+}
+
+.project-btn {
+	background-color: #df9a11;
+	color: #121212;
+	margin-bottom: 10px;
+}
+
+
+/* ABOUT SETTINGS
+   -----------------------------  */

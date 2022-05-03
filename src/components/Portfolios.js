@@ -1,4 +1,4 @@
-export default function Projects() {
+export default function Portfolios() {
   return (
     <div className="" id="projects">
       <p className="">Projects</p>

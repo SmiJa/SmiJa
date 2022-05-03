@@ -1,7 +1,7 @@
 import Me from './../images/profile2.png';
 import {Link} from 'react-router-dom';
 
-export default function Header() {
+export default function Profile() {
 	return (
 		<div className="container" id="">
 			<p className="">Profile</p>
@@ -18,21 +18,18 @@ export default function Header() {
 			</div>
 			
 			<p className="">Skills</p>
-			<div className="">
-				<Link to="projects/dev">Test</Link>
-				<i className="fab fa-html5 p-2"></i>
-				<i className="fab fa-css3-alt p-2"></i>
-				<i className="fab fa-js p-2"></i>
-				<i className="fab fa-react p-2"></i>
-				<i className="fab fa-bootstrap p-2"></i>
-				<i className="fab fa-git-alt p-2"></i>
-				<i className="fab fa-npm p-2"></i>
-				<i className="fab fa-python p-2"></i>
-			</div>
-			<div className="">
-				<a className="" href="#nav">
-					<i className=""></i>
-				</a>
+			<div className="dev-skills">
+				<div className="">
+					<Link to="projects/dev">Test</Link>
+					<i className="fab fa-html5 p-2"></i>
+					<i className="fab fa-css3-alt p-2"></i>
+					<i className="fab fa-js p-2"></i>
+					<i className="fab fa-react p-2"></i>
+					<i className="fab fa-bootstrap p-2"></i>
+					<i className="fab fa-git-alt p-2"></i>
+					<i className="fab fa-npm p-2"></i>
+					<i className="fab fa-python p-2"></i>
+				</div>
 			</div>
 		</div>
 	);
