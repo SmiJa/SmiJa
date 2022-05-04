@@ -7,11 +7,9 @@ import Header from './components/Header';
 import MobileMenu from './components/MobileMenu';
 
 // PAGES
-import Profile from './components/Profile';
+import Profile from './components/About';
 import Projects from './components/Projects';
-import Resume from './components/Career';
-import Education from './components/Education';
-import Portfolios from './components/Portfolios';
+import About from './components/About'
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);  
@@ -31,8 +29,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Profile/>}/>
             <Route path="projects" element={<Projects/>}/>
-            <Route path="resume" element={<Resume/>}/>
-            <Route path="education" element={<Education/>}/>
+            <Route path="resume" element={<About/>}/>
           </Routes>
         </div>
       </div>
