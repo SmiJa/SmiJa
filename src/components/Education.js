@@ -1,6 +1,6 @@
 export default function Education() {
     return (
-        <div className="" id="education">
+        <div className="container" id="education">
             <p className="">Education</p>
             <div>
                 <p className=""><span className="">BitWise Industries - Workforce Training |</span> Aug - Sep 2021</p>
