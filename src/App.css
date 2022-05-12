@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&family=Roboto+Condensed:wght@400;700&display=swap');
 
+:root {
+	--main-background: #13171c;
+	--main-body-text: #cdcdcd;
+	--primary-accent: #df9a11;
+}
 
 /* GLOBAL SETTINGS
    -----------------------------  */
@@ -11,16 +16,21 @@
 
 
 body {
-	background-color: #13171c;
+	background-color: var(--main-background);
 	font-family: 'Roboto Condensed', sans-serif;
-	color: #cdcdcd;
+	color: var(--main-body-text);
 	height: 100vh;
 	font-size: 16px;
 }
 
-img {
-	width: 100%;
+header {
+	font-size: 1.8rem;
+	font-weight: 700;
+	border-bottom: 1px solid var(--primary-accent);
+	margin-bottom: 10px;
 }
+
+img { width: 100%; }
 
 .container {
 	width: 90%;
@@ -41,12 +51,10 @@ img {
 
 #nav a {
 	text-decoration: none;
-	color: #cdcdcd;
+	color: var(--main-body-text);
 }
 
-#nav a:hover {
-	color: #df9a11
-}
+#nav a:hover { color: var(--primary-accent); }
 
 .nav-wrap {
 	display: flex;
@@ -54,14 +62,12 @@ img {
 }
 
 .nav-name {
-	color: #df9a11;
+	color: var(--primary-accent);
 	font-size: 2rem;
 }
 
 @media screen and (max-width: 300px) {
-	.nav-name {
-		font-size: 1.6rem;
-	}
+	.nav-name { font-size: 1.6rem; }
 }
 
 .nav-links {
@@ -69,9 +75,7 @@ img {
 	font-size: 1.3rem;
 }
 
-.nav-links a {
-	padding: 0 10px;
-}
+.nav-links a { padding: 0 10px; }
 
 #mobile-nav-opener {
 	display: none;
@@ -79,19 +83,13 @@ img {
 }
 
 @media screen and (max-width: 300px) {
-	#mobile-nav-opener {
-		font-size: 1.1rem;
-	}
+	#mobile-nav-opener { font-size: 1.1rem;	}
 }
 
 @media screen and (max-width: 840px) {
-	.nav-links {
-		display: none;
-	}
+	.nav-links { display: none;	}
 
-	#mobile-nav-opener {
-		display: inline-block;
-	}
+	#mobile-nav-opener { display: inline-block;	}
 }
 
 .mobileMenu {
@@ -107,13 +105,13 @@ img {
 	width: 100vw;
 	height: 100vh;
 
-	color: #df9a11;
+	color: var(--primary-accent);
 	font-size: 1.4rem;
 	text-align: center;
 }
 
 .close {
-	color: #df9a11;
+	color: var(--primary-accent);
 	font-size: 1.6rem;
 	top: 20px;
 	position: absolute;
@@ -127,7 +125,7 @@ img {
 .mobile-nav-links a {
 	padding: 0;
 	font-family: 'Kanit';
-	color: #cdcdcd;
+	color: var(--main-body-text);
 	text-decoration: none;
 	font-size: 2rem;
 	padding: 5px 0;
@@ -136,9 +134,7 @@ img {
 /* PROJECTS SETTINGS
    -----------------------------  */
 
-#projects-page {
-    padding-bottom: 20px;
-}
+#projects-page { padding-bottom: 20px; }
 
 .projects-wrap {
 	display: flex;
@@ -157,9 +153,7 @@ img {
 	margin-bottom: 10px;
 }
 
-.img-wrap {
-	max-width: 100%;
-}
+.img-wrap {	max-width: 100%; }
 
 @media screen and (max-width: 800px) {
 	.project {
@@ -201,7 +195,7 @@ img {
 
 .github-btn {
 	color: #121212;
-	background-color: #cdcdcd;
+	color: var(--main-body-text);
 }
 
 .github-btn:hover {
@@ -209,11 +203,110 @@ img {
 }
 
 .project-btn {
-	background-color: #df9a11;
+	color: var(--primary-accent);
 	color: #121212;
 	margin-bottom: 10px;
 }
 
 
 /* ABOUT SETTINGS
-   -----------------------------  */
+  -----------------------------  */
+
+.personal-bar {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.profile-img {
+	flex: 1 0 300px;
+	margin: 5px;
+	border: 8px solid var(--primary-accent);
+}
+
+.profile-img img {
+	width: 100%;
+}
+
+.summary {
+	flex: 2 2 300px;
+	padding: 0 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.summary-header {	width: 100%; }
+
+.summary p { align-self: center; }
+
+.social-links {	list-style-type: none; }
+
+.social-links a {
+	text-decoration: none;
+	color: var(--main-body-text);
+	font-size: 1.2rem;
+}
+
+.social-links a:hover {	color: var(--primary-accent); }
+
+
+/* SKILLS SETTINGS
+  -----------------------------  */
+
+#skills {	margin-top: 20px; }
+
+#skills header {
+	font-size: 1.8rem;
+	font-weight: 700;
+	border-bottom: 1px solid var(--primary-accent);
+	margin-bottom: 10px;
+}
+
+.dev-skills {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	font-size: 1.1rem;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.skill {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	flex: 1 1 200px;
+	padding: 10px;
+}
+
+.skill i { font-size: 2rem; }
+
+/* CAREER SETTINGS
+  -----------------------------  */
+
+#careeer {
+	margin-bottom: 20px;
+}
+
+header {
+	font-size: 1.8rem;
+	font-weight: 700;
+	border-bottom: 1px solid var(--primary-accent);
+	margin-bottom: 10px;
+}
+
+.job-title { font-weight: bold; }
+
+/* Education SETTINGS
+  -----------------------------  */
+
+#education { padding-bottom: 20px; }
+
+.training { font-weight: bold; }

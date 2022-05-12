@@ -36,8 +36,8 @@ export default function Projects() {
 						<header>
 							<p className="">Trivia & Chill</p>
 						</header>
-						<p className='about'>The Shopping List app is a great way to make lists in the command line. This app was a fun way to learn about creating files and working with lists in Python.</p>
-						<p>Built with: React Native</p>
+						<p className='about'>A fun game that builds questions with an API from The Movie Database</p>
+						<p>Built with: React Native, API</p>
 						<div className="btn-bar">
 							<a className="btn project-btn" href="https://luceroweb.github.io/trivia-and-chill/">Play the game</a>
 							<a className="btn github-btn" href="https://github.com/SmiJa/Shopping_List"><i className="fa-brands fa-github"></i>View the code</a>
