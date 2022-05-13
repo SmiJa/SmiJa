@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react/cjs/react.production.min';
 
 export default function Header({setShowMenu}) {
 

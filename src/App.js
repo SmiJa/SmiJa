@@ -1,13 +1,12 @@
 import './App.css';
 import { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // SECTIONS
 import Header from './components/Header';
 import MobileMenu from './components/MobileMenu';
 
 // PAGES
-import Profile from './components/About';
 import Projects from './components/Projects';
 import About from './components/About'
 

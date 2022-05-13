@@ -1,7 +1,6 @@
 import Me from './../images/profile2.png';
 import Career from './Career';
 import Education from './Education';
-import {Link} from 'react-router-dom';
 
 export default function About() {
 	return (
