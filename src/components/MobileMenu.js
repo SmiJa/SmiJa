@@ -7,10 +7,8 @@ export default function Header({setShowMenu}) {
 				<i className="fa-solid fa-square-xmark"></i>
 			</span>
 			<nav className="mobile-nav-links">
-				<Link to="/projects" onClick={() => setShowMenu(false)}>Projects</Link>
-				<Link to="/resume" onClick={() => setShowMenu(false)}>Career</Link>
-				<Link to="/education" onClick={() => setShowMenu(false)}>Education</Link>
-				<Link to="/" onClick={() => setShowMenu(false)}>About</Link>
+				<Link to="projects" onClick={() => setShowMenu(false)}>Projects</Link>
+				<Link to="resume" onClick={() => setShowMenu(false)}>Resume</Link>
 			</nav>
 		</div>
 	);

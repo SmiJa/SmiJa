@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 // SECTIONS
 import Header from './components/Header';
@@ -14,7 +14,7 @@ function App() {
   const [showMenu, setShowMenu] = useState(false);  
 
   return (
-    <Router>
+    <HashRouter hashType="slash">
       {showMenu &&
       <MobileMenu
         setShowMenu={setShowMenu}
@@ -32,7 +32,7 @@ function App() {
           </Routes>
         </div>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
