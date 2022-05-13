@@ -195,15 +195,11 @@ img { width: 100%; }
 
 .github-btn {
 	color: #121212;
-	color: var(--main-body-text);
-}
-
-.github-btn:hover {
-	color: #121212;
+	background-color: var(--main-body-text);
 }
 
 .project-btn {
-	color: var(--primary-accent);
+	background-color: var(--primary-accent);
 	color: #121212;
 	margin-bottom: 10px;
 }
