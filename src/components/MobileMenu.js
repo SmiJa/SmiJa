@@ -8,7 +8,7 @@ export default function Header({setShowMenu}) {
 			</span>
 			<nav className="mobile-nav-links">
 				<Link to="projects" onClick={() => setShowMenu(false)}>Projects</Link>
-				<Link to="resume" onClick={() => setShowMenu(false)}>Resume</Link>
+				{/* <Link to="resume" onClick={() => setShowMenu(false)}>Resume</Link> */}
 			</nav>
 		</div>
 	);
