@@ -1,4 +1,4 @@
-import Me from './../images/profile2.png';
+import Me from './../images/ProfilePicSquare.jpg';
 import Career from './Career';
 import Education from './Education';
 
@@ -13,7 +13,7 @@ export default function About() {
 					<div className="summary">
 						<header className="summary-header">Personal Summary</header>
 						<p>
-							As a paid apprentice working with React and React Native I have worked on some amazing projects. I'm a self motivated front-end developer that thrives on learning new technologies.
+							I'm a self-motivated front-end developer with a passion for learning. While building projects I strive for clean UI for the web and mobile. I work with React and React Native. Having a background in art I bring creative problem solving to the project.
 						</p>
 
 						<ul className="social-links">
@@ -64,6 +64,10 @@ export default function About() {
 					<div className="skill">
 						<i className="fab fa-python p-2"></i>
 						<p>Python</p>
+					</div>
+					<div className="skill">
+						<i className="fab fa-figma p-2"></i>
+						<p>Figma</p>
 					</div>
 				</div>
 			</div>
