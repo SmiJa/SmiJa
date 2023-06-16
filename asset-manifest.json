@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.01238c59.css",
-    "main.js": "/portfolio/static/js/main.cea5f9f1.js",
+    "main.js": "/portfolio/static/js/main.cd26903d.js",
     "static/js/787.86e70ff7.chunk.js": "/portfolio/static/js/787.86e70ff7.chunk.js",
     "static/media/magicBox.png": "/portfolio/static/media/magicBox.da619fbf8872725aa755.png",
     "static/media/eCard.png": "/portfolio/static/media/eCard.0911ddd86225ec615cb6.png",
     "static/media/decidr.png": "/portfolio/static/media/decidr.3a0ae8b21f7634c0c64d.png",
     "static/media/triviaAndChill.png": "/portfolio/static/media/triviaAndChill.af86e4aedd9a180642f8.png",
     "static/media/hauntedHouseGame.png": "/portfolio/static/media/hauntedHouseGame.a7ac9a28490f634cb264.png",
-    "static/media/profile2.png": "/portfolio/static/media/profile2.492f9596f0a53c0b7eab.png",
+    "static/media/PersonalArtPortfolio.png": "/portfolio/static/media/PersonalArtPortfolio.c74f7d1dbd0d70829cfd.png",
+    "static/media/ProfilePicSquare.jpg": "/portfolio/static/media/ProfilePicSquare.1b7a969ba0bb09c41fb4.jpg",
     "static/media/shoppingList.png": "/portfolio/static/media/shoppingList.27d4a2bdf0132bc34e66.png",
     "static/media/rockPaperScissors.png": "/portfolio/static/media/rockPaperScissors.28542185ce7ca0642b3b.png",
     "static/media/passwordGenerator.png": "/portfolio/static/media/passwordGenerator.ca524d8984ff53fa33a1.png",
@@ -19,11 +20,11 @@
     "static/media/robotocondensed-bold-webfont.woff2": "/portfolio/static/media/robotocondensed-bold-webfont.a906c379fd1a9eee2d4e.woff2",
     "index.html": "/portfolio/index.html",
     "main.01238c59.css.map": "/portfolio/static/css/main.01238c59.css.map",
-    "main.cea5f9f1.js.map": "/portfolio/static/js/main.cea5f9f1.js.map",
+    "main.cd26903d.js.map": "/portfolio/static/js/main.cd26903d.js.map",
     "787.86e70ff7.chunk.js.map": "/portfolio/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01238c59.css",
-    "static/js/main.cea5f9f1.js"
+    "static/js/main.cd26903d.js"
   ]
 }
