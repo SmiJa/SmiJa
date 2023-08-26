@@ -6,11 +6,29 @@ import passwordGenerator from './../images/passwordGenerator.png';
 import rockPaperScissors from './../images/rockPaperScissors.png';
 import shoppingList from './../images/shoppingList.png';
 import triviaAndChill from './../images/triviaAndChill.png';
+import personalSite from './../images/PersonalArtPortfolio.png';
 
 export default function Projects() {
 	return (
     <div className="container" id="projects-page">
 			<div className="projects-wrap">
+			<div className="project">
+					<div className="img-wrap">
+						<img src={personalSite} alt="" className="" />
+					</div>
+					<div className="project-info">
+						<header>
+							<p className="">Mrjasonsmith.com</p>
+						</header>
+						<p className='about'>This project is a personal protfolio site for my artwork.</p>
+						<p>Built with: HTML, CSS, JavaScript</p>
+						<div className="btn-bar">
+							<a className="btn project-btn" href="https://mrjasonsmith.com/">Link to the site</a>
+						</div>
+						
+					</div>
+        </div>
+
         <div className="project">
 					<div className="img-wrap">
 						<img src={shoppingList} alt="" className="" />

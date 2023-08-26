@@ -10,7 +10,7 @@ export default function Header({setShowMenu}) {
 				</Link>
         <nav className="nav-links">
           <Link to="projects">Projects</Link>
-          <Link to="About">Resume</Link>
+          {/* <Link to="About">Resume</Link> */}
         </nav>
         <span onClick={() => setShowMenu(true)} id="mobile-nav-opener">Menu</span>
 			</div>
