@@ -21,9 +21,6 @@ export default function About() {
 								<a href="https://github.com/SmiJa"><i class="fa-brands fa-github"></i>  GitHub</a>
 							</li>
 							<li>
-								<a href="https://www.linkedin.com/in/jason-smith-8a0a72220/"><i class="fa-brands fa-linkedin"></i>  LinkedIn</a>
-							</li>
-							<li>
 								<a href="https://codepen.io/JasonSmith"><i class="fa-brands fa-codepen"></i>  Codepen</a>
 							</li>
 						</ul>
