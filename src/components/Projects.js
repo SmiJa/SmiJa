@@ -1,29 +1,46 @@
 import decidr from './../images/decidr.png';
-import ecard from './../images/eCard.png';
 import hauntedHouse from './../images/hauntedHouseGame.png';
 import magicBox from './../images/magicBox.png';
 import passwordGenerator from './../images/passwordGenerator.png';
 import rockPaperScissors from './../images/rockPaperScissors.png';
 import shoppingList from './../images/shoppingList.png';
 import triviaAndChill from './../images/triviaAndChill.png';
-import personalSite from './../images/PersonalArtPortfolio.png';
+import todo from './../images/todo.png';
+import asteroids from './../images/asteroids.png';
 
 export default function Projects() {
 	return (
     <div className="container" id="projects-page">
 			<div className="projects-wrap">
-			<div className="project">
+				<div className="project">
 					<div className="img-wrap">
-						<img src={personalSite} alt="" className="" />
+						<img src={triviaAndChill} alt="" className="" />
 					</div>
 					<div className="project-info">
 						<header>
-							<p className="">Mrjasonsmith.com</p>
+							<p className="">Trivia & Chill</p>
 						</header>
-						<p className='about'>This project is a personal protfolio site for my artwork.</p>
-						<p>Built with: HTML, CSS, JavaScript</p>
+						<p className='about'>A fun game that builds questions with an API from The Movie Database</p>
+						<p>Built with: React Native, API</p>
 						<div className="btn-bar">
-							<a className="btn project-btn" href="https://mrjasonsmith.com/">Link to the site</a>
+							<a className="btn project-btn" href="https://luceroweb.github.io/trivia-and-chill/">Play the game</a>
+							<a className="btn github-btn" href="https://github.com/luceroweb/trivia-and-chill"><i className="fa-brands fa-github"></i>View the code</a>
+						</div>
+					</div>
+        </div>
+
+				<div className="project">
+					<div className="img-wrap">
+						<img src={asteroids} alt="" className="" />
+					</div>
+					<div className="project-info">
+						<header>
+							<p className="">Asteroids</p>
+						</header>
+						<p className='about'>A super basic and fun clone of the classic Asteroids. Also serves as a fun way of learning OOP in Python.</p>
+						<p>Built with: Python, PyGame</p>
+						<div className="btn-bar">
+							<a className="btn github-btn" href="https://github.com/SmiJa/asteroids"><i className="fa-brands fa-github"></i>View the code</a>
 						</div>
 						
 					</div>
@@ -43,23 +60,6 @@ export default function Projects() {
 							<a className="btn github-btn" href="https://github.com/SmiJa/Shopping_List"><i className="fa-brands fa-github"></i>View the code</a>
 						</div>
 						
-					</div>
-        </div>
-
-        <div className="project">
-					<div className="img-wrap">
-						<img src={triviaAndChill} alt="" className="" />
-					</div>
-					<div className="project-info">
-						<header>
-							<p className="">Trivia & Chill</p>
-						</header>
-						<p className='about'>A fun game that builds questions with an API from The Movie Database</p>
-						<p>Built with: React Native, API</p>
-						<div className="btn-bar">
-							<a className="btn project-btn" href="https://luceroweb.github.io/trivia-and-chill/">Play the game</a>
-							<a className="btn github-btn" href="https://github.com/SmiJa/Shopping_List"><i className="fa-brands fa-github"></i>View the code</a>
-						</div>
 					</div>
         </div>
 
@@ -139,7 +139,7 @@ export default function Projects() {
 						<header>
 							<p className="">Rock, Paper, Scissors</p>
 						</header>
-						<p className='about'>Just a fun game project.</p>
+						<p className='about'>Play Rock, Paper, Scissors against the computer.</p>
 						<p>Built with: HTML5, CSS3, JavaScript</p>
 						<div className="btn-bar">
 							<a className="btn project-btn" href="https://objective-panini-185d08.netlify.app/">Link to the app</a>
@@ -150,17 +150,17 @@ export default function Projects() {
 
         <div className="project">
 					<div className="img-wrap">
-						<img src={ecard} alt="" className="" />
+						<img src={todo} alt="" className="" />
 					</div>
 					<div className="project-info">
 						<header>
-							<p className="">E-Card</p>
+							<p className="">Todo</p>
 						</header>
-						<p className='about'>This project provides an E-Card for a user to send to a loved one. It has a form for the user to fill out a greeting and message to the person they have chosen to email it to. </p>
-						<p>Built with: React</p>
+						<p className='about'>A basic todo application to keep track of your daily tasks.</p>
+						<p>Built with: HTML, CSS, JavaScript</p>
 						<div className="btn-bar">
-							<a className="btn project-btn" href="https://smija.github.io/ecard/">Link to the app</a>
-							<a className="btn github-btn" href="https://github.com/SmiJa/ecard"><i className="fa-brands fa-github"></i> View the code</a>
+							<a className="btn project-btn" href="https://smija.github.io/todo-vanilla/">Link to the app</a>
+							<a className="btn github-btn" href="https://github.com/SmiJa/todo-vanilla"><i className="fa-brands fa-github"></i> View the code</a>
 						</div>
 					</div>					
         </div>
