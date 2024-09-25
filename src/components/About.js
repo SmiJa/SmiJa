@@ -17,6 +17,9 @@ export default function About() {
 						</p>
 
 						<ul className="social-links">
+						<li>
+								<a href="https://www.linkedin.com/in/jasonsdev"><i class="fa-brands fa-linkedin"></i>  Linkedin</a>
+							</li>
 							<li>
 								<a href="https://github.com/SmiJa"><i class="fa-brands fa-github"></i>  GitHub</a>
 							</li>
