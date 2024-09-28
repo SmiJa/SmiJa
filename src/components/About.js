@@ -13,7 +13,7 @@ export default function About() {
 					<div className="summary">
 						<header className="summary-header">Personal Summary</header>
 						<p>
-							I'm a self-motivated front-end developer with a passion for learning. While building projects I strive for clean UI for the web and mobile. I work with React and React Native. Having a background in art I bring creative problem solving to the project.
+							I'm a self-motivated front-end developer with a passion for learning. As an artist turned developer I strive for clean UI for the web and mobile while building apps. I like to work with vanilla JavaScript, React,React Native, and on occasion Python. As someone that has studied art, I find programming to be a natural transition from art.
 						</p>
 
 						<ul className="social-links">
