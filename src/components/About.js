@@ -15,6 +15,9 @@ export default function About() {
 						<p>
 							I'm a self-motivated front-end developer with a passion for learning. As an artist turned developer I strive for clean UI for the web and mobile while building apps. I like to work with vanilla JavaScript, React,React Native, and on occasion Python. As someone that has studied art, I find programming to be a natural transition from art.
 						</p>
+						<p>
+							I am currently working through an online program to expand my skill set as a developer. The program is for back-end development with an emphasis on concepts from computer science.
+						</p>
 
 						<ul className="social-links">
 						<li>
