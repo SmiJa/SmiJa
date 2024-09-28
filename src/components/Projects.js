@@ -122,10 +122,10 @@ export default function Projects() {
 						<header>
 							<p className="">Password Generator</p>
 						</header>
-						<p className='about'>Learned about how to work with user selectable options and random generation. </p>
+						<p className='about'>A password generator with basic features.</p>
 						<p>Built with: HTML5, CSS3, JavaScript</p>
 						<div className="btn-bar">
-							<a className="btn project-btn" href="https://blissful-hodgkin-10badc.netlify.app/">Link to the app</a>
+							<a className="btn project-btn" href="https://js-passwordgenerator.netlify.app/">Link to the app</a>
 							<a className="btn github-btn" href="https://github.com/SmiJa/passwordGenerator"><i className="fa-brands fa-github"></i>View the code</a>
 						</div>
 					</div>
@@ -142,7 +142,7 @@ export default function Projects() {
 						<p className='about'>Play Rock, Paper, Scissors against the computer.</p>
 						<p>Built with: HTML5, CSS3, JavaScript</p>
 						<div className="btn-bar">
-							<a className="btn project-btn" href="https://objective-panini-185d08.netlify.app/">Link to the app</a>
+							<a className="btn project-btn" href="https://js-rockpaperscissors.netlify.app/">Link to the app</a>
 							<a className="btn github-btn" href="https://github.com/SmiJa/Rock_Paper_Scissors"><i className="fa-brands fa-github"></i>View the code</a>
 						</div>
 					</div>
