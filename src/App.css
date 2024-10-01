@@ -217,11 +217,11 @@ img { width: 100%; }
 .profile-img {
 	flex: 1 0 300px;
 	margin: 5px;
-	border: 8px solid var(--primary-accent);
 }
 
 .profile-img img {
 	width: 100%;
+	border: 8px solid var(--primary-accent);
 }
 
 .summary {
